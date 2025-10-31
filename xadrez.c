@@ -3,14 +3,14 @@
 int main() {
     
     int casasTorre = 5;
-    printf("*Movimento da Torre*\n");
+    printf("**Movimento da Torre**\n");
     for (int i = 1; i <= casasTorre; i++ ) {
         printf("Direita\n");
     }
     
     int casasBispo = 5;
     int contadorBispo = 1;
-    printf("\n*Movimento do Bispo*\n");
+    printf("\n**Movimento do Bispo**\n");
     while (contadorBispo <= casasBispo) {
         printf("Cima, Direita\n");
         contadorBispo++;
@@ -18,7 +18,7 @@ int main() {
     
     int casasRainha = 8;
     int contadorRainha = 1;
-    printf("\n*Movimento da Rainha*\n");
+    printf("\n**Movimento da Rainha**\n");
     do {
         printf("Esquerda\n");
         contadorRainha++;
