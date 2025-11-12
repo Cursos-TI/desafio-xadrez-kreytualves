@@ -1,5 +1,6 @@
  #include <stdio.h>
  
+ 
  void moverTorre(int casasRestantes){
      if (casasRestantes <= 0) return;
      printf("Direita\n");
